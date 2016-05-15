@@ -44,8 +44,7 @@ Add Css
 
 Add Top Links
 
-<?xml version="1.0" encoding="UTF-8"?>
-<layout version="0.1.0">
+<layout>
     <default>
         <reference name="root">
         <reference name="top.links">
@@ -64,8 +63,7 @@ Add Top Links
 
 Add My Account Links
 
-<?xml version="1.0" ?>
-<layout version="0.1.0">
+<layout>
     <customer_account translate="label">
         <reference name="customer_account_navigation">
             <action method="addLink"><name>test checkout</name><path>checkout</path><label>Inchoo Checkout</label></action>
